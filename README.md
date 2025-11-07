@@ -1,6 +1,6 @@
 # JWT Key Generator
 This easy to use app generates a highly secure **Symmetric Key** that can be used for signing **JSON Web Tokens (JWTs)**. It's built using **.NET 8** with an MVC (Mode-View-Controller) architecture and **Razor** views.<br/> 
-[![Live Demo Link](https://img.shields.io/badge/Live%20Demo%20Link-3178c6)](https://imagestore-production.up.railway.app)<br/>
+[![Live Demo Link](https://img.shields.io/badge/Live%20Demo%20Link-3178c6)](https://keygenerator-production.up.railway.app)<br/>
 ### Technologies
 ![.NET 8](https://img.shields.io/badge/.NET%208-275779) 
 ![Razor](https://img.shields.io/badge/Razor-bc2545)
