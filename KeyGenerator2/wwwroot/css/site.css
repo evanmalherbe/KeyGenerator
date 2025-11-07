@@ -17,6 +17,4 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
-}
+body { margin-bottom: 60px; background-color: #0b5c71; /* For browsers that do not support gradients */ background-image: linear-gradient(to bottom right, #0e0e0e, #0b5c71); }

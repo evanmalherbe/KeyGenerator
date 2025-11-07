@@ -3,29 +3,42 @@
 }
 
 <div class="row justify-content-center mt-4">
-
-  <div class="col-12 col-md-5 mb-4">
+  <div class="col-12 col-md-8 mb-4">
     <div class="card shadow-sm h-100">
+
       <div class="card-body">
-        <h4 class="card-title text-primary mb-4">JWT Key Generator</h4>
+        <h4 class="card-title text-primary mb-4">🔐 JWT Shared Secret Key Generator</h4>
+
+        <p class="lead">
+          Instantly generate a highly secure, <b>Symmetric Key</b> for signing JSON Web Tokens (JWTs)
+        </p>
+
+        <hr>
+
+        <h5 class="text-secondary mb-3">Key Features:</h5>
+        <ul class="list-unstyled mb-4">
+          <li>✨ <b>High Security:</b> Uses a Cryptographically Strong Pseudo-Random Number Generator (CSPRNG).</li>
+          <li>📏 <b>Optimal Size:</b> Generates a <b>64-byte (512-bit)</b> key.</li>
+          <li>🔒 <b>Algorithm Compatibility:</b> Perfect for common <b>HMAC</b> algorithms like <b>HS256</b> and <b>HS512</b>.</li>
+        </ul>
+
+        <hr>
+
+        <p class="text-muted small">
+          <b>Technical Note:</b> This tool is designed for <b>Symmetric</b> (Shared Secret) JWT signing, where the same key is used for both token signing and verification.
+        </p>
 
         <form id="optionsForm" method="post" asp-controller="Home" asp-action="Create">
           @Html.AntiForgeryToken()
 
-          <p>This site generates a <b>64-byte (512-bit)</b> key that can safely be used for common HMAC algorithms used with <b>JWT (JSON web tokens)</b> such as <b>HMAC-SHA256 (HS256) or HMAC-SHA512 (HS512)</b>.</p>
-          <p>It uses a cryptographically strong pseudo-random number generator (CSPRNG).</p>
-          
-          @* Generate Button *@
-          <div class="d-grid gap-2 pt-3">
+          <div class="d-flex justify-content-center pt-3">
             <button type="submit" class="btn btn-success btn-lg" id="generateButton">
               <i class="bi bi-key-fill me-2"></i> GENERATE KEY
             </button>
           </div>
         </form>
       </div>
+
     </div>
   </div>
-
-
 </div>
-
