@@ -14,7 +14,7 @@ This easy to use app generates a highly secure **Symmetric Key** that can be use
 - [Description](#description)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contributing](#user-content--contributing)
 - [Credits](#credits)
 
 ## 💡 Key Features
@@ -25,7 +25,7 @@ This easy to use app generates a highly secure **Symmetric Key** that can be use
 * **Tech Stack:** Built on the robust **.NET 8** framework.
 
 ## Description
-This is a **.NET 8 MVC** web app with **Razor** views (deployed with [Railway](https://railway.com)). I wanted to create a quick little website that could generate a secure **secret key** that I could use for my coding projects that require authentication using **JSON Web Tokens (JWT)**. I figured that since I might need this tool semi-regularly, why not put it online for others to use as well. See screenshot of the homepage below.<br/>
+This is a **.NET 8 MVC** web app with **Razor** views (deployed with [Railway](https://railway.com)). I wanted to create a quick little website that could generate a secure **secret key** that I could use for my coding projects that require authentication using **JSON Web Tokens (JWT)**. I figured that since I might need this tool semi-regularly, why not put it online for others to use as well. See screenshot of the homepage below.<br/><br/>
 ![Key Generator homepage](https://imagestore-production.up.railway.app/images/key-generator-home.png)
 
 ## Getting Started
