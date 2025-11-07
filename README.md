@@ -10,7 +10,7 @@ This easy to use app generates a highly secure **Symmetric Key** that can be use
 ![Bootstrap](https://img.shields.io/badge/Bootstrap%205-339933)
 
 ## Table of Contents
-- [Key Features](#key-features)
+- [Key Features](#user-content--key-features)
 - [Description](#description)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
