@@ -10,14 +10,15 @@ This easy to use app generates a highly secure **Symmetric Key** that can be use
 ![Bootstrap](https://img.shields.io/badge/Bootstrap%205-339933)
 
 ## Table of Contents
-- [Key Features](#user-content--key-features)
+- [Key Features](#key-features)
 - [Description](#description)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#user-content--contributing)
+- [Contributing](#contributing)
+- [License](#license)
 - [Credits](#credits)
 
-## 💡 Key Features
+## Key Features
 * **Highly Secure:** Keys are generated using a Cryptographically Strong Pseudo-Random Number Generator (CSPRNG).
 * **Optimal Strength:** Generates a **64-byte (512-bit)** Symmetric Key.
 * **JWT Standards:** Perfect for use with common HMAC algorithms like **HS256** and **HS512**.
@@ -58,7 +59,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 4.  Push to the Branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
 
-## 📜 License
+## License
 Distributed under the **MIT License**. See **[LICENSE](LICENSE)** for more information.
 
 ## Credits
