@@ -17,4 +17,7 @@ html {
   min-height: 100%;
 }
 
-body { margin-bottom: 60px; background-color: #0b5c71; /* For browsers that do not support gradients */ background-image: linear-gradient(to bottom right, #0e0e0e, #0b5c71); }
+body { font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin-bottom: 60px; background-color: #0b5c71; /* For browsers that do not support gradients */ background-image: linear-gradient(to bottom right, #0e0e0e, #0b5c71); }
+
+.navbar-brand,
+.h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Inter', sans-serif; }
