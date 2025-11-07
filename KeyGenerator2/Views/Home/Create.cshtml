@@ -4,11 +4,9 @@
   string key = ViewBag.Key;
 }
 
-@* Centering the content on the page *@
 <div class="row justify-content-center mt-5">
   <div class="col-12 col-md-9 col-lg-10">
 
-    @* Card styled for success/focus *@
     <div class="card shadow-lg border-success">
       <div class="card-header bg-success text-white text-center">
         <h3 class="mb-0">
@@ -16,7 +14,6 @@
         </h3>
       </div>
       <div class="card-body text-center p-4">
-
         <h4 class="card-title text-success mb-4">Your New Secure JWT Secret Key:</h4>
 
         <div class="p-3 mb-4 bg-light border border-secondary rounded-3">
@@ -25,22 +22,18 @@
           </code>
         </div>
 
-        @* Action Buttons *@
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-
-          @* Back Button *@
           <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary btn-lg order-2 order-sm-1" id="backHome">
             <i class="bi bi-arrow-left"></i> Go Back to Generator
           </a>
 
-          @* Placeholder for a Copy Button (Requires JavaScript) *@
           <button type="button" id="copyButton" class="btn btn-primary btn-lg order-1 order-sm-2" onclick="copyToClipboard(@JsonSerializer.Serialize(key))" title="Click to copy the key to your clipboard">
             <i class="bi bi-clipboard"></i> Copy Key
           </button>
         </div>
       </div>
 
-      @* Footer with a quick security tip *@
+      @* Footer *@
       <div class="card-footer text-muted small text-center">
         Tip: Store your secret key safely! Do not rely solely on your browser's clipboard.
       </div>
@@ -49,15 +42,7 @@
 </div>
 
 @section scripts {
-  @* <script src="~/assets/js/moment.js"></script> *@
   <script type="text/javascript">
-    let v = "";
-
-    $(document).ready(async function()
-    {
-
-    });
-
     function copyToClipboard(newPassword)
     {
       navigator.clipboard.writeText(newPassword)
@@ -79,7 +64,6 @@
           console.error("Could not copy text: ", err);
         });
     }
-
   </script>
 }
 
