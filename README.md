@@ -1,6 +1,6 @@
 # JWT Key Generator
 This easy to use app generates a highly secure **Symmetric Key** that can be used for signing **JSON Web Tokens (JWTs)**. It's built using **.NET 8** with an MVC (Mode-View-Controller) architecture and **Razor** views.<br/> 
-[![Live Demo Link](https://img.shields.io/badge/Live%20Demo%20Link-3178c6)](https://keygenerator-production.up.railway.app)<br/>
+[![Live Demo Link](https://img.shields.io/badge/Live%20Demo%20Link-3178c6)](https://keygenerator.evanmalherbe.com)<br/>
 ### Technologies
 ![.NET 8](https://img.shields.io/badge/.NET%208-275779) 
 ![Razor](https://img.shields.io/badge/Razor-bc2545)
@@ -27,7 +27,7 @@ This easy to use app generates a highly secure **Symmetric Key** that can be use
 
 ## Description
 This is a **.NET 8 MVC** web app with **Razor** views (deployed with [Railway](https://railway.com)). I wanted to create a quick little website that could generate a secure **secret key** that I could use for my coding projects that require authentication using **JSON Web Tokens (JWT)**. I figured that since I might need this tool semi-regularly, why not put it online for others to use as well. See screenshot of the homepage below.<br/><br/>
-![Key Generator homepage](https://imagestore-production.up.railway.app/images/key-generator-home.png)
+![Key Generator homepage](https://image-store.premiumasp.net/images/key-generator-home.png)
 
 ## Getting Started
 To run this app outside of Visual Studio, you'll need the **.NET 8 SDK** installed on your machine (the version that is compatible with this project - 8.0). 
@@ -43,10 +43,10 @@ To run this app outside of Visual Studio, you'll need the **.NET 8 SDK** install
 
 ## Usage
 Once you open the project in your browser `http://localhost:5000` (or similar), you will see the homepage of the key generator. Take note of the **technical information** about the type of key being created, if that is of interest to you and then click the **Generate Key** button. See image below.<br/><br/>
-![Key Generator homepage](https://imagestore-production.up.railway.app/images/key-generator1.png)<br/>
+![Key Generator homepage](https://image-store.premiumasp.net/images/key-generator1.png)<br/>
 
 You will then be taken to the next page where you are given your new **64-byte (512-bit) key** to use as you see fit. Click the **Copy Key** button to copy it to your clipboard for pasting elsewhere or click the **Go Back to Generator** button to return to the homepage where you can create a new key, if you want to. See image below.<br /><br/>
-![Key Generator key page](https://imagestore-production.up.railway.app/images/key-generator2.png)<br/>
+![Key Generator key page](https://image-store.premiumasp.net/images/key-generator2.png)<br/>
 
 ## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
